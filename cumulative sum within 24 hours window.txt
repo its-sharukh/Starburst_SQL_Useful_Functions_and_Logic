@@ -1,5 +1,5 @@
 -- This could be used to calculate the cumulative sum against merchant_id within 24 hours window (this will not include transaction happened before 24 hours for a merchant_id in cumulative sum calculations)
--- assuming  in a transaction level table we have txn_amount, merchant_id(against multiple txns this could repeat), and date_time columns
+-- Assuming  in a transaction level table we have txn_amount, merchant_id(against multiple txns this could repeat), and date_time columns
 -- You can make changes as per requirement (e.g. can change time duration or merchant id to user id etc)
 -- Put this mentioned text in select statement which will create a column
 
