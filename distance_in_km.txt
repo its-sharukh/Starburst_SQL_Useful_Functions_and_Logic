@@ -1,4 +1,4 @@
--- This could be use to calculate the distance in kilometre between two latitude and longitude.
+-- This could be used to calculate the distance in kilometre between two latitude and longitude.
 -- Put this mentioned text in select statement which will create a column
 -- assuming  A is table_A and B is table_b
 -- You can make changes as per requirement
