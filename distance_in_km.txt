@@ -1,7 +1,7 @@
 -- This could be used to calculate the distance in kilometre between two latitude and longitude.
--- Put this mentioned text in your SQL query select statement which will create a column
 -- assuming  A is table_A and B is table_b
 -- You can make changes as per your requirement
+-- Put this mentioned text in your SQL query select statement which will create a column
 
 
 
