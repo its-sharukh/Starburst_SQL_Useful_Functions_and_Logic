@@ -1,0 +1,13 @@
+-- This could be used to calculate the cumulative sum of merchant within 24 hours window
+-- assuming  in a transaction level table we have txn_amount, merchant_id(against multiple txns this could repeat), and date_time columns
+-- You can make changes as per requirement
+-- Put this mentioned text in select statement which will create a column
+
+
+
+select
+SUM(txn_amount) OVER (
+        PARTITION BY merchant_id 
+        ORDER BY date_time 
+        RANGE BETWEEN INTERVAL '1' DAY PRECEDING AND CURRENT ROW
+    ) AS cumulative_sum_within_24_hours
